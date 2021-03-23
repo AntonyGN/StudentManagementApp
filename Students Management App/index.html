@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+    <div id="top">
+
+        <h3><b><u>STUDENT MANAGMENT SYSTEM</b></u></h3>
+    </div>
+
+    
+
+    <div id="flexContainer">
+        <div id="left">
+            <div id="formText">
+                <h3>Add Student</h3>
+    </div>
+
+    <form id="studentForm" name="studentForm">
+        <label>Student Name</label><br>
+        <small id="textErrorName" class="error"></small>
+        <input type="text" name="name" id="name"><br>
+
+        <label>Course</label><br>
+        <small id="textErrorCourse" class="error"></small>
+        <input type="text" name="course" id="course"><br>
+
+        <label>Fee Paid</label><br>
+        <small id="textErrorFee" class="error">error</small>
+        <input type="number" name="fee" id="fee"><br>
+
+        <button type="button" id="addbtn">
+             Add Student
+        </button>
+    </form>
+ </div>
+
+ <div id="right">
+     <table id="studentsTable">
+         <thead>
+             <tr>
+                 <th>Name</th>
+                 <th>Course</th>
+                 <th>Fee</th>
+                 <th>Balance</th>
+                 <th>Action</th>
+             </tr>
+         </thead> 
+         <tbody>
+
+         </tbody> 
+     </table>
+
+     
+  </div>
+ </div>
+
+
+
+ <script src="main.js"></script>
+</body>
+</html>

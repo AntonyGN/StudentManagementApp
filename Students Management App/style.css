@@ -1,0 +1,89 @@
+body{
+    background-color: azure;
+    color: rgb(82, 80, 82, 0.8);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top{
+    margin: 30px 0px;
+    text-align: center;
+}
+
+
+#flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#left{
+    width: 30%;
+    margin: 2%;
+    margin-top: 3.6%;
+    background-color:#f2f2f2;
+    display: block;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 15px;
+
+}
+
+#left #studentForm label{
+    font-size: 18px;
+    margin: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+#left #formText{
+    text-align: center;
+}
+
+#textErrorName, #textErrorCourse,#textErrorFee{
+    color:red;
+    font-size: 10px;
+    margin: 5px 0px 0px 20px;
+    display: none;
+}
+
+input[type="text"], input[type="number"]
+{
+width: 90%;
+margin: 0px 20px 20px 17px;
+height: 35px;
+font-size: 20px;
+padding-left: 1px;
+}
+#addbtn{
+    width: 91%;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    margin:  0px 20px 20px 17.45px;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+#right{
+    height: auto;
+    width:60%;
+}
+
+#studentsTable{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#studentsTable td, #studentsTable th{
+    border: 1px solid #ddd;
+    padding: 40px;
+}
+
+#studentsTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(211, 44, 14);
+    color: white;
+  }
